@@ -1,200 +1,221 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Daniel Kathein",
+    "label": "AI & Software Development Enthusiast",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "dkathein@cmu.edu",
+    "phone": "(954) 240-2410",
+    "url": "",
+    "summary": "AI undergraduate student at Carnegie Mellon University (School of Computer Science), passionate about ML research, large language models, and full-stack development",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "",
+      "postalCode": "",
+      "city": "Fort Lauderdale",
       "countryCode": "US",
-      "region": "California"
+      "region": "FL"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "username": "daniel-kathein",
+        "url": "https://linkedin.com/in/daniel-kathein/"
+      },
+      {
+        "network": "GitHub",
+        "username": "dkat0",
+        "url": "https://github.com/dkat0"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "NVIDIA",
+      "position": "Incoming Deep Learning Infrastructure Engineer Intern",
+      "location": "Santa Clara, CA",
+      "startDate": "2025-05",
+      "endDate": "2025-08",
+      "summary": "Will contribute to Deep Learning and large-scale ML efforts within VLSI design.",
+      "highlights": []
+    },
+    {
+      "name": "CMU Language Technologies Institute, Li Lab",
+      "position": "Machine Learning Research Intern",
+      "location": "Pittsburgh, PA",
+      "startDate": "2024-05",
+      "endDate": "2024-09",
+      "summary": "Conducted research on large language models.",
+      "highlights": [
+        "Fine-tuned 3 base LLMs for code generation, using a self-align pipeline for autonomous data generation and learning.",
+        "Pioneered a novel non-greedy tokenization technique, leveraging beam search to achieve lowest perplexity segmentations.",
+        "Developed a 10,000-sample benchmark to rigorously evaluate LLMs on complex linguistic and string manipulation tasks.",
+        "Achieved a notable performance improvement when applied to the Llama-3.1-Instruct model."
+      ]
+    },
+    {
+      "name": "CMUCal (ScottyLabs)",
+      "position": "Lead Software Developer Intern",
+      "location": "Pittsburgh, PA",
+      "startDate": "2023-09",
+      "endDate": "",
+      "summary": "Building a comprehensive academic resource centralization platform for CMU students.",
+      "highlights": [
+        "Engineered CMUCal, a comprehensive academic platform automating the integration of essential student resources.",
+        "Led the design of CMUCal's backend using Python, Node, and MongoDB, with front-end development in React.",
+        "Integrated 15+ data sources via advanced web scraping and AI-driven crowd-sourcing, centralizing academic resources.",
+        "Streamlined the seamless sync of office hours and tutoring into student calendars, reducing manual entry by 80%."
+      ]
+    },
+    {
+      "name": "Freelance",
+      "position": "Full-Stack Software Engineer",
+      "location": "Fort Lauderdale, FL",
+      "startDate": "2020-02",
+      "endDate": "2022-08",
+      "summary": "Built full-stack solutions for e-commerce monitoring and other custom software needs.",
+      "highlights": [
+        "Coded Python software to monitor e-commerce in real-time on 15+ retailer sites and alert product availability.",
+        "Architected a robust multithreaded, proxy-supported web harvesting infrastructure using BeautifulSoup and Selenium.",
+        "Facilitated $400K+ in generated revenue for Amazon, Walmart, and other online sellers from 1500+ total users."
+      ]
     }
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "organization": "Computer Science Club (Pine Crest)",
+      "position": "Vice President",
+      "url": "",
+      "startDate": "2020-08",
+      "endDate": "2023-05",
+      "summary": "Coordinated code-a-thons, workshops, and mentored competitive programming teams.",
+      "highlights": [
+        "Coordinated code-a-thons, workshops, and guest speaker events (e.g., Google) for 100+ club members.",
+        "Led and coached highly competitive teams for 5+ major contests including ACSL, PClassic, and UCF HSPT.",
+        "Awarded 1st place at the Winter Code-a-thon, emphasizing data structures and algorithms, among 20+ teams."
+      ]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "Carnegie Mellon University",
+      "location": "Pittsburgh, PA",
+      "url": "https://www.cmu.edu/",
+      "area": "Artificial Intelligence",
+      "studyType": "Bachelor of Science",
+      "startDate": "2023-08",
+      "endDate": "2026-05",
+      "score": "GPA: 3.93/4.0",
+      "courses": []
+    },
+    {
+      "institution": "Pine Crest Preparatory School",
+      "location": "Fort Lauderdale, FL",
+      "url": "https://www.pinecrest.edu/",
+      "studyType": "High School Diploma",
+      "startDate": "2019-08",
+      "endDate": "2023-05",
+      "score": "SAT: 1570 | GPA: 5.09 | Top 1% of class",
+      "courses": []
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Dean's List with High Honors",
+      "date": "2024-12",
+      "awarder": "Carnegie Mellon University",
+      "summary": "Awarded 3 semesters in a row."
+    },
+    {
+      "title": "1st Place - Software Development",
+      "date": "",
+      "awarder": "Florida Technology Student Association",
+      "summary": ""
+    },
+    {
+      "title": "Achievement Award",
+      "date": "",
+      "awarder": "Pine Crest Preparatory School",
+      "summary": "Top 1% of class in Computer Science & Math"
     }
   ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
+  "certificates": [],
+  "publications": [],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Programming Languages",
+      "level": "",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Python",
+        "Java",
+        "C/C++",
+        "HTML",
+        "SML",
+        "LaTeX"
+      ]
+    },
+    {
+      "name": "Frameworks & Libraries",
+      "level": "",
+      "keywords": [
+        "PyTorch",
+        "Keras",
+        "TensorFlow",
+        "Scikit-learn",
+        "Pandas",
+        "NumPy",
+        "OpenCV",
+        "MongoDB",
+        "HuggingFace Transformers"
+      ]
+    },
+    {
+      "name": "Developer Tools",
+      "level": "",
+      "keywords": [
+        "Linux",
+        "Git",
+        "Visual Studio Code",
+        "Google Cloud Platform",
+        "AWS"
+      ]
+    },
+    {
+      "name": "Focus Areas",
+      "level": "",
+      "keywords": [
+        "Machine Learning",
+        "Software Development",
+        "Computer Vision",
+        "NLP",
+        "Large Language Models",
+        "Data Science"
       ]
     }
   ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
+  "languages": [],
+  "interests": [],
+  "references": [],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Multi-Camera Association with Transformers",
+      "startDate": "2023-04",
+      "endDate": "",
+      "description": "Conducted 325+ hours of research at the University of Florida under Dr. Henry Medeiros, designing a cutting-edge multi-camera tracking algorithm with Local Feature Transformer; performed large experiments tuning 8 parameters.",
+      "highlights": [
+        "Contributed to the US Department of Homeland Security'’'s CLASP initiative, aimed at enhancing airport safety.",
+        "Presented at the 2022 International Forum on Research Excellence and 2023 Florida JSEHS Symposium competition, securing 4th place overall and the Regional Recognition Award among the top 6 speakers (research publication: https://arxiv.org/abs/2408.09295).",
+        "Granted 1st place in Intelligent Machines, Robotics, and Systems Software at the Broward Science and Engineering Fair."
+      ],
+      "url": "https://arxiv.org/abs/2408.09295"
+    },
+    {
+      "name": "Epileptic Seizure Prediction with Long Short-Term Memory",
+      "startDate": "2022-06",
+      "endDate": "",
+      "description": "Developed advanced RNN, LSTM, and GRU models for high-accuracy epileptic seizure detection from EEG data.",
+      "highlights": [
+        "Implemented SMOTE for data balancing and Keras Tuner for optimization, achieving a record 97.5% accuracy."
+      ],
+      "url": "https://github.com/dkat0/LSTM-Seizure-Prediction"
     }
   ]
 }
