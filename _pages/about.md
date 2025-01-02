@@ -2,24 +2,23 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='https://www.cs.cmu.edu/bs-in-artificial-intelligence/'>B.S. in AI</a> @ CMU, incoming Incoming AI/DL Intern @ <a href='https://www.nvidia.com/en-us/'>NVIDIA</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  more_info:
 
 news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm currently studying Artificial Intelligence in the [School of Computer Science](https://www.cs.cmu.edu/) at [Carnegie Mellon University](https://www.cmu.edu/), where I'm passionate about exploring the frontiers of machine learning and large language models to tackle meaningful problems.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Most recently, I worked as an ML Research Intern at CMU's [Li Lab](https://leililab.github.io/) in the [Language Technologies Institute](https://www.lti.cs.cmu.edu/). During my internship, I focused on improving LLMs in code generation, spelling, and tricky string manipulation tasks (including the classic "how many r's are in strawberry"). I had a blast fine-tuning advanced models, pioneering a novel non-canonical tokenization technique, and benchmarking these improvements on a custom 10,000-sample dataset—leading to notable gains on [Meta's Llama-3.1 model](https://www.llama.com/).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+This summer, I'll be heading to [NVIDIA](https://www.nvidia.com/en-us/) in Santa Clara, CA, for an internship centered on deep learning infrastructure engineering and harnessing LLMs to enhance VLSI chip design workflows. I'm excited to see how far we can push these methods on a larger scale.
+
+In my free time, I enjoy playing basketball, weightlifting, experimenting on the piano, checking out new restaurants, and spending time with my five cats, two brothers, and family. Feel free to reach out if you'd like to connect!
