@@ -44,7 +44,7 @@ It all started when **John Mackey**, who teaches the infamous first-year 15-151 
 
 > *"Is the set of injections $$\{0,1\}^{\mathbb{N}} \rightarrow \mathbb{R}$$ uncountable?"*
 
-It wasn't even framed as a challenge—more one of those throwaway brainteasers. But my classmate **Pietro** and I couldn't resist poking at it further. A few days later, we finally pinned down a clean argument showing that the set is indeed uncountable.
+It wasn't necessarily framed as a challenge—more of a throwaway brainteaser. But my classmate **Pietro** and I couldn't resist poking at it further. A few days later, we finally pinned down a clean argument showing that the set is indeed uncountable.
 
 What follows is our proof, largely motivated by Cantor's classic diagonalization ideas, that we hope does justice to Mackey's provocative question.
 
@@ -61,7 +61,7 @@ $$
 where each $$f_b: \{0,1\}^{\mathbb{N}} \rightarrow \mathbb{R}$$ is defined via
 
 $$
-f_{b}(b') = \Sig_{i\in\mathbb{N}} \frac{b_i'(b_i + 1)}{10^{i+1}}
+f_{b}(b') = \sum{i\in\mathbb{N}} \frac{b_i'(b_i + 1)}{10^{i+1}}
 $$
 
 Note for the curious reader that for the $$i$$th digits $$b_i$$ and $$b_i'$$ of the infinite binary strings $$b$$ and $$b'$$,
@@ -153,11 +153,11 @@ Suppose $$b_1, b_2 \in \{0,1\}^{\mathbb{N}}$$ such that $$ b_1 \neq b_2$$. Then 
 Consider the binary string $$b' = \{1\}^{\mathbb{N}} = 111111\dots$$, so for all $$i \in \mathbb{N}$, $b_i' = 1$$. We show this binary string produces different outputs for $$f_{b_1} \text { and } f_{b_2}$$. Observe that:
 
 $$
-f_{b_1}(b') = f_{b_1}(\{1\}^{\mathbb{N}}) = \Sig_{i\in\mathbb{N}} \frac{b_i'((b_1)_i + 1)}{10^{i+1}} = \Sig_{i\in\mathbb{N}} \frac{1\cdot((b_1)_i + 1)}{10^{i+1}}
+f_{b_1}(b') = f_{b_1}(\{1\}^{\mathbb{N}}) = \sum_{i\in\mathbb{N}} \frac{b_i'((b_1)_i + 1)}{10^{i+1}} = \sum_{i\in\mathbb{N}} \frac{1\cdot((b_1)_i + 1)}{10^{i+1}}
 $$
 
 $$
-f_{b_2}(b') = f_{b_2}(\{1\}^{\mathbb{N}}) = \Sig_{i\in\mathbb{N}} \frac{b_i'((b_2)_i + 1)}{10^{i+1}} = \Sig_{i\in\mathbb{N}} \frac{1\cdot((b_2)_i + 1)}{10^{i+1}}
+f_{b_2}(b') = f_{b_2}(\{1\}^{\mathbb{N}}) = \sum_{i\in\mathbb{N}} \frac{b_i'((b_2)_i + 1)}{10^{i+1}} = \sum_{i\in\mathbb{N}} \frac{1\cdot((b_2)_i + 1)}{10^{i+1}}
 $$
 
 Note because $$b_1 \neq b_2$$, there exists a least index $$j \in \mathbb{N}$$ where the digits of $$b_1$$ and $$b_2$$ differ. Without loss of generality, assume $$(b_1)_j = 1$$ and $$(b_2)_j = 0$$. Then we have
@@ -214,18 +214,7 @@ $$
 \end{align*}
 $$
 
-For $$i \geq j+1$$, setting $$(n_1)_i = 2$$ maximizes $$\sum_{i=j+1}^{\infty} \frac{(n_1)_i}{10^{i+1}}$$. This sum forms an infinite geometric series with the first term 
-
-$$
-a = \frac{2}{10^{j+2}}
-$$ 
-
-and common ratio 
-
-$$
-r = \frac{1}{10}.
-$$ 
-
+For $$i \geq j+1$$, setting $$(n_1)_i = 2$$ maximizes $$\sum_{i=j+1}^{\infty} \frac{(n_1)_i}{10^{i+1}}$$. This sum forms an infinite geometric series with the first term $$a = \frac{2}{10^{j+2}}$$ and common ratio $$r = \frac{1}{10}$$.
 
 The sum of this series is given by 
 
