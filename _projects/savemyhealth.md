@@ -7,4 +7,4 @@ importance: 1
 category: fun
 ---
 
-View the project [here](https://savemyhealth.aeylabs.com/) and source code [here](https://github.com/dkat0/save-my-health)!
+### [[Codebase]](https://github.com/dkat0/save-my-health) [[Website]](https://savemyhealth.aeylabs.com/)
