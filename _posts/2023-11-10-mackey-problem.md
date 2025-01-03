@@ -1,7 +1,7 @@
 ---
 layout: distill
 title: The Mackey Problem
-description: Prove the set of injections \{0,1\}^N -> R is uncountable
+description: Prove that the set of injections from the set of infinite binary sequences to the real numbers is uncountable.
 tags: math
 giscus_comments: true
 date: 2023-11-10
