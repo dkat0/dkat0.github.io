@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I took part in HackCMU, building [SaveMyHealth](https://github.com/dkat0/save-my-health), an AI-powered personalized health & longevity recommendation system.
+I took part in HackCMU 2024, building [SaveMyHealth](https://github.com/dkat0/save-my-health), an AI-powered personalized health & longevity recommendation system.
