@@ -40,9 +40,9 @@ bibliography: 2024-11-10-mackey-problem.bib
 
 ## Introduction
 
-It all started when **John Mackey**, who teaches the (in)famous first-year **15-151 Mathematical Foundations for Computer Science** course (better known as *"Concepts"*) at CMU, casually posed the following puzzle at the end of one of his lectures: 
+It all started when **John Mackey**, who teaches the infamous first-year 15-151 Mathematical Foundations for Computer Science course (better known as **Concepts**) at CMU, casually posed the following puzzle at the end of one of his lectures: 
 
-> *"Is the set of injections $$\{0,1\}^{\N} \rightarrow \R$$ uncountable?"*
+> *"Is the set of injections $$\{0,1\}^{\mathbb{N}} \rightarrow \mathbb{R}$$ uncountable?"*
 
 It wasn't even framed as a challenge—more one of those throwaway brainteasers. But my classmate **Pietro** and I couldn't resist poking at it further. A few days later, we finally pinned down a clean argument showing that the set is indeed uncountable.
 
@@ -50,18 +50,18 @@ What follows is our proof, largely motivated by Cantor's classic diagonalization
 
 ---
 
-## Solution to the "Mackey Problem"
+## Solution to The Mackey Problem
 ### Setup
-We want to prove the set of injections $$\{0,1\}^{\N} \rightarrow \R$$ is uncountable. By Cantor's Diagonalization argument, $$\{0,1\}^{\N}$$ is uncountable. Thus, we construct an injection $$g:\{0,1\}^{\N} \rightarrow \{f \mid f: \{0,1\}^{\N} \rightarrow \R \text{ and } f \text{ is injective}\}$$. Define $$g$$ via:
+We want to prove the set of injections $$\{0,1\}^{\mathbb{N}} \rightarrow \mathbb{R}$$ is uncountable. By Cantor's Diagonalization argument, $$\{0,1\}^{\mathbb{N}}$$ is uncountable. Thus, we construct an injection $$g:\{0,1\}^{\mathbb{N}} \rightarrow \{f \mid f: \{0,1\}^{\mathbb{N}} \rightarrow \mathbb{R} \text{ and } f \text{ is injective}\}$$. Define $$g$$ via:
 
 $$
 g(b) = f_{b}
 $$
 
-where each $$f_b: \{0,1\}^{\N} \rightarrow \R$$ is defined via
+where each $$f_b: \{0,1\}^{\mathbb{N}} \rightarrow \mathbb{R}$$ is defined via
 
 $$
-f_{b}(b') = \Sig_{i\in\N} \frac{b_i'(b_i + 1)}{10^{i+1}}
+f_{b}(b') = \Sig_{i\in\mathbb{N}} \frac{b_i'(b_i + 1)}{10^{i+1}}
 $$
 
 Note for the curious reader that for the $$i$$th digits $$b_i$$ and $$b_i'$$ of the infinite binary strings $$b$$ and $$b'$$,
@@ -104,19 +104,19 @@ Note we have defined $$f_b$$ generally as one unique value, so it satisfies tota
 
 $$
 \begin{align*}
-    & b' \in \{0,1\}^{\N}, \\
-    \implies \quad & b_i' \in \{0,1\} \quad \text{for all } i \in \N, \\
-    \implies \quad & f_b(b') = \sum_{i \in \N} \frac{b_i'(b_i + 1)}{10^{i+1}} \in \R,
+    & b' \in \{0,1\}^{\mathbb{N}}, \\
+    \implies \quad & b_i' \in \{0,1\} \quad \text{for all } i \in \mathbb{N}, \\
+    \implies \quad & f_b(b') = \sum_{i \in \mathbb{N}} \frac{b_i'(b_i + 1)}{10^{i+1}} \in \mathbb{R},
 \end{align*}
 $$
 
-since $$b_i', b_i, 10^{i+1} \in \R$$ and $$\R$$ is closed under addition, multiplication, and division. Therefore, $$f_b$$ satisfies existence. Because $$f_b$$ satisfies existence, uniqueness and totality, it is well-defined.
+since $$b_i', b_i, 10^{i+1} \in \mathbb{R}$$ and $$\mathbb{R}$$ is closed under addition, multiplication, and division. Therefore, $$f_b$$ satisfies existence. Because $$f_b$$ satisfies existence, uniqueness and totality, it is well-defined.
 
 ### We show $$f_b$$ is injective
 
 We show $$f_b$$ is injective by the contrapositive.
 
-Suppose  $$b_1', b_2' \in \{0,1\}^{\N}$$ such that $$b_1' \neq b_2'$$. Therefore, there exists a least index $$j \in \N$$where the digits of $$b_1'$$ and $$b_2'$$ differ. Without loss of generality, assume $$(b_1')_j = 1$$ and $$(b_2')_j = 0$$. Then, we have
+Suppose  $$b_1', b_2' \in \{0,1\}^{\mathbb{N}}$$ such that $$b_1' \neq b_2'$$. Therefore, there exists a least index $$j \in \mathbb{N}$$where the digits of $$b_1'$$ and $$b_2'$$ differ. Without loss of generality, assume $$(b_1')_j = 1$$ and $$(b_2')_j = 0$$. Then, we have
 
 $$
 \begin{align*}
@@ -126,11 +126,11 @@ $$
 \end{align*}
 $$
 
-Let $$n_1, n_2 \in \{0,1,2\}^{\N}$$ such that $$(n_1)_i = (b_1')_i(b_i + 1)$$ and $$(n_2)_i = (b_2')_i(b_i + 1)$$ for all $$i \in \N$$. Since $$(b_1')_j(b_j + 1) \neq (b_2')_j(b_j + 1)$$ it follows that $$(n_1)_j\neq(n_2)_j$$, so $$n_1 \neq n_2$$. Invoking Lemma A found in the appendix, we have
+Let $$n_1, n_2 \in \{0,1,2\}^{\mathbb{N}}$$ such that $$(n_1)_i = (b_1')_i(b_i + 1)$$ and $$(n_2)_i = (b_2')_i(b_i + 1)$$ for all $$i \in \mathbb{N}$$. Since $$(b_1')_j(b_j + 1) \neq (b_2')_j(b_j + 1)$$ it follows that $$(n_1)_j\neq(n_2)_j$$, so $$n_1 \neq n_2$$. Invoking Lemma A found in the appendix, we have
 
 $$
 \begin{align*}
-    &\sum_{i \in \N} \frac{(b'_1)_i(b_i + 1)}{10^{i+1}} \neq \sum_{i \in \N} \frac{(b'_2)_i(b_i + 1)}{10^{i+1}}
+    &\sum_{i \in \mathbb{N}} \frac{(b'_1)_i(b_i + 1)}{10^{i+1}} \neq \sum_{i \in \mathbb{N}} \frac{(b'_2)_i(b_i + 1)}{10^{i+1}}
 \end{align*}
 $$
 
@@ -140,7 +140,7 @@ It follows that $$f_b(b_1') \neq f_b(b_2')$$, and thus that $$f_b$$ is injective
 
 Note we have defined $$g$$ generally as one unique value, so it satisfies totality and uniqueness. We show existence for $$g$$. 
 
-Let $$b \in \{0,1\}^{\N}$$, thus $$g(b) = f_b$$. Because $$f_b$$ is defined as a function from $$\{0,1\}^{\N}$$ to $$\R$$ and it has been shown to be injective, it follows that $$g(b) = f_b$$ is in the set $$\{f \mid f: \{0,1\}^{\N} \rightarrow \R \text{ and } f \text{ is injective}\}$$, hence $$g$$ satisfies existence.
+Let $$b \in \{0,1\}^{\mathbb{N}}$$, thus $$g(b) = f_b$$. Because $$f_b$$ is defined as a function from $$\{0,1\}^{\mathbb{N}}$$ to $$\mathbb{R}$$ and it has been shown to be injective, it follows that $$g(b) = f_b$$ is in the set $$\{f \mid f: \{0,1\}^{\mathbb{N}} \rightarrow \mathbb{R} \text{ and } f \text{ is injective}\}$$, hence $$g$$ satisfies existence.
 
 Because $g$ satisfies existence, uniqueness, and totality, it is well-defined.
 
@@ -148,19 +148,19 @@ Because $g$ satisfies existence, uniqueness, and totality, it is well-defined.
 
 We show the contrapositive, or that for all binary strings $$b_1$$ and $$b_2$$, $$b_1 \neq b_2 \implies g(b_1) \neq g(b_2)$$.
 
-Suppose $$b_1, b_2 \in \{0,1\}^{\N}$$ such that $$ b_1 \neq b_2$$. Then we have $$g(b_1) = f_{b_1}$$ and $$g(b_2) = f_{b_2}$$. To show $$g(b_1) \neq g(b_2)$$, we must show $$f_{b_1} \neq f_{b_2}$$. It suffices to show they have different outputs for some input.
+Suppose $$b_1, b_2 \in \{0,1\}^{\mathbb{N}}$$ such that $$ b_1 \neq b_2$$. Then we have $$g(b_1) = f_{b_1}$$ and $$g(b_2) = f_{b_2}$$. To show $$g(b_1) \neq g(b_2)$$, we must show $$f_{b_1} \neq f_{b_2}$$. It suffices to show they have different outputs for some input.
 
-Consider the binary string $$b' = \{1\}^{\N} = 111111\dots$$, so for all $$i \in \N$, $b_i' = 1$$. We show this binary string produces different outputs for $$f_{b_1} \text { and } f_{b_2}$$. Observe that:
-
-$$
-f_{b_1}(b') = f_{b_1}(\{1\}^{\N}) = \Sig_{i\in\N} \frac{b_i'((b_1)_i + 1)}{10^{i+1}} = \Sig_{i\in\N} \frac{1\cdot((b_1)_i + 1)}{10^{i+1}}
-$$
+Consider the binary string $$b' = \{1\}^{\mathbb{N}} = 111111\dots$$, so for all $$i \in \mathbb{N}$, $b_i' = 1$$. We show this binary string produces different outputs for $$f_{b_1} \text { and } f_{b_2}$$. Observe that:
 
 $$
-f_{b_2}(b') = f_{b_2}(\{1\}^{\N}) = \Sig_{i\in\N} \frac{b_i'((b_2)_i + 1)}{10^{i+1}} = \Sig_{i\in\N} \frac{1\cdot((b_2)_i + 1)}{10^{i+1}}
+f_{b_1}(b') = f_{b_1}(\{1\}^{\mathbb{N}}) = \Sig_{i\in\mathbb{N}} \frac{b_i'((b_1)_i + 1)}{10^{i+1}} = \Sig_{i\in\mathbb{N}} \frac{1\cdot((b_1)_i + 1)}{10^{i+1}}
 $$
 
-Note because $$b_1 \neq b_2$$, there exists a least index $$j \in \N$$ where the digits of $$b_1$$ and $$b_2$$ differ. Without loss of generality, assume $$(b_1)_j = 1$$ and $$(b_2)_j = 0$$. Then we have
+$$
+f_{b_2}(b') = f_{b_2}(\{1\}^{\mathbb{N}}) = \Sig_{i\in\mathbb{N}} \frac{b_i'((b_2)_i + 1)}{10^{i+1}} = \Sig_{i\in\mathbb{N}} \frac{1\cdot((b_2)_i + 1)}{10^{i+1}}
+$$
+
+Note because $$b_1 \neq b_2$$, there exists a least index $$j \in \mathbb{N}$$ where the digits of $$b_1$$ and $$b_2$$ differ. Without loss of generality, assume $$(b_1)_j = 1$$ and $$(b_2)_j = 0$$. Then we have
 
 $$
 \begin{align*}
@@ -169,11 +169,11 @@ $$
 \end{align*}
 $$
 
-Let $$n_1, n_2 \in \{0,1,2\}^{\N}$$ such that $$(n_1)_i = (b_1)_i + 1$$ and $$(n_2)_i = (b_2)_i + 1$$ for all $$i \in \N$$. Since $$(b_1)_j + 1 \neq (b_2)_j + 1$$ it follows that $$(n_1)_j\neq(n_2)_j$$, so $$n_1 \neq n_2$$. Invoking Lemma A found in the appendix, we have
+Let $$n_1, n_2 \in \{0,1,2\}^{\mathbb{N}}$$ such that $$(n_1)_i = (b_1)_i + 1$$ and $$(n_2)_i = (b_2)_i + 1$$ for all $$i \in \mathbb{N}$$. Since $$(b_1)_j + 1 \neq (b_2)_j + 1$$ it follows that $$(n_1)_j\neq(n_2)_j$$, so $$n_1 \neq n_2$$. Invoking Lemma A found in the appendix, we have
 
 $$
 \begin{align*}
-    &\sum_{i \in \N} \frac{(b_1)_i + 1}{10^{i+1}} \neq \sum_{i \in \N} \frac{(b_2)_i + 1}{10^{i+1}}
+    &\sum_{i \in \mathbb{N}} \frac{(b_1)_i + 1}{10^{i+1}} \neq \sum_{i \in \mathbb{N}} \frac{(b_2)_i + 1}{10^{i+1}}
 \end{align*}
 $$
 
@@ -181,7 +181,7 @@ It follows that $$f_{b_1}(b') \neq f_{b_2}(b')$$, and because the functions diff
 
 ### Conclusion
 
-Since $$g$$ is an injective function from the uncountable set $$\{0,1\}^{\N}$$ to the set of injections $$\{f \mid f: \{0,1\}^{\N} \rightarrow \R\}$$, the latter set is also uncountable.
+Since $$g$$ is an injective function from the uncountable set $$\{0,1\}^{\mathbb{N}}$$ to the set of injections $$\{f \mid f: \{0,1\}^{\mathbb{N}} \rightarrow \mathbb{R}\}$$, the latter set is also uncountable.
 
 
 ---
@@ -238,7 +238,7 @@ Note $$\frac{2}{9 \cdot 10^{j+1}} < \frac{1}{10^{j+1}}$$. Similarly, the minimum
 $$
 \begin{align*}
 &(n_1)_j < (n_2)_j \\
-\implies&(n_1)_j + 1 \leq (n_2)_j &n_1, n_2 \in \{0,1,2\}^{\N}\\
+\implies&(n_1)_j + 1 \leq (n_2)_j &n_1, n_2 \in \{0,1,2\}^{\mathbb{N}}\\
 \implies&\frac{(n_1)_j}{10^{j+1}} + \frac{1}{10^{j+1}} \leq \frac{(n_2)_j}{10^{j+1}}\\
 \implies&\frac{(n_1)_j}{10^{j+1}} + \sum_{i=j+1}^{\infty} \frac{(n_1)_i}{10^{i+1}} < \frac{(n_2)_j}{10^{j+1}} &\sum_{i=j+1}^{\infty} \frac{(n_1)_i}{10^{i+1}} \leq \frac{2}{9 \cdot 10^{j+1}} < \frac{1}{10^{j+1}}\\
 \implies&\frac{(n_1)_j}{10^{j+1}} + \sum_{i=j+1}^{\infty} \frac{(n_1)_i}{10^{i+1}} < \frac{(n_2)_j}{10^{j+1}} + \sum_{i=j+1}^{\infty} \frac{(n_2)_i}{10^{i+1}} &\sum_{i=j+1}^{\infty} \frac{(n_2)_i}{10^{i+1}} \geq 0\\
