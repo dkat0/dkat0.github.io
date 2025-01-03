@@ -48,17 +48,6 @@ ninja.data = [{
           window.location.href = "/blog/2023/mackey-problem/";
         
       },
-    },{id: "post-a-distill-style-blog-post",
-      
-        title: "a distill-style blog post",
-      
-      description: "an example of a distill-style blog post and main elements",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2021/distill/";
-        
-      },
     },{id: "news-i-took-part-in-hackcmu-building-savemyhealth-an-ai-powered-personalized-health-amp-amp-longevity-recommendation-system",
           title: 'I took part in HackCMU, building SaveMyHealth, an AI-powered personalized health &amp;amp;amp; longevity...',
           description: "",
