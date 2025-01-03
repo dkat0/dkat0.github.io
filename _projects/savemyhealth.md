@@ -2,10 +2,9 @@
 layout: page
 title: SaveMyHealth
 description: An AI powered approach to health. HackCMU 2024 project.
-img: assets/img/12.jpg
+img: assets/img/savemyhealth.png
 importance: 1
 category: fun
-related_publications: true
 ---
 
-View the project [here](https://savemyhealth.aeylabs.com/)!
+View the project [here](https://savemyhealth.aeylabs.com/) and source code [here](https://github.com/dkat0/save-my-health)!
