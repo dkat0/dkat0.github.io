@@ -14,7 +14,8 @@ footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 keywords: daniel, kathein, daniel-kathein, daniel-kathein-website, CMU, cmu, carnegie mellon, school of computer science, scs, machine learning, ai, large language models, llms, cs
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🚀 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+#icon: 🚀 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favi.ico
 
 url: https://dkat0.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
