@@ -48,7 +48,10 @@ ninja.data = [{
           window.location.href = "/blog/2023/mackey-problem/";
         
       },
-    },{id: "news-i-took-part-in-hackcmu-2024-building-savemyhealth-an-ai-powered-personalized-health-amp-amp-longevity-recommendation-system",
+    },{id: "news-i-attended-the-international-forum-on-research-excellence-ifore-in-virginia-where-i-presented-my-work-in-multi-camera-tracking",
+          title: 'I attended the International Forum on Research Excellence (IFoRE) in Virginia, where I...',
+          description: "",
+          section: "News",},{id: "news-i-took-part-in-hackcmu-2024-building-savemyhealth-an-ai-powered-personalized-health-amp-amp-longevity-recommendation-system",
           title: 'I took part in HackCMU 2024, building SaveMyHealth, an AI-powered personalized health &amp;amp;amp;...',
           description: "",
           section: "News",},{id: "news-i-m-really-excited-to-be-joining-nvidia-as-an-intern-this-summer-to-work-on-llms",
