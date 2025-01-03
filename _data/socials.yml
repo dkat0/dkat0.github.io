@@ -45,7 +45,7 @@ scholar_userid: -lWZpGIAAAAJ # your Google Scholar ID
 # x_username: # your X handle
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
-custom_social: # can be any name here other than the ones already defined above
-  logo: https://i.imgur.com/y4pblYn.jpeg # can be png, svg, jpg
-  title: Personal Website
-  url: https://danielkathe.in/
+# custom_social: # can be any name here other than the ones already defined above
+#  logo: https://i.imgur.com/y4pblYn.jpeg # can be png, svg, jpg
+#  title: Personal Website
+#  url: https://danielkathe.in/
