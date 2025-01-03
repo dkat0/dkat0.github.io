@@ -310,6 +310,7 @@ filtered_bibtex_keywords:
     altmetric,
     annotation,
     arxiv,
+    paper,
     award,
     award_name,
     bibtex_show,
