@@ -61,7 +61,7 @@ $$
 where each $$f_b: \{0,1\}^{\mathbb{N}} \rightarrow \mathbb{R}$$ is defined via
 
 $$
-f_{b}(b') = \sum{i\in\mathbb{N}} \frac{b_i'(b_i + 1)}{10^{i+1}}
+f_{b}(b') = \sum_{i\in\mathbb{N}} \frac{b_i'(b_i + 1)}{10^{i+1}}
 $$
 
 Note for the curious reader that for the $$i$$th digits $$b_i$$ and $$b_i'$$ of the infinite binary strings $$b$$ and $$b'$$,
@@ -150,7 +150,7 @@ We show the contrapositive, or that for all binary strings $$b_1$$ and $$b_2$$, 
 
 Suppose $$b_1, b_2 \in \{0,1\}^{\mathbb{N}}$$ such that $$ b_1 \neq b_2$$. Then we have $$g(b_1) = f_{b_1}$$ and $$g(b_2) = f_{b_2}$$. To show $$g(b_1) \neq g(b_2)$$, we must show $$f_{b_1} \neq f_{b_2}$$. It suffices to show they have different outputs for some input.
 
-Consider the binary string $$b' = \{1\}^{\mathbb{N}} = 111111\dots$$, so for all $$i \in \mathbb{N}$, $b_i' = 1$$. We show this binary string produces different outputs for $$f_{b_1} \text { and } f_{b_2}$$. Observe that:
+Consider the binary string $$b' = \{1\}^{\mathbb{N}} = 111111\dots$$, so for all $$i \in \mathbb{N}$$, $$b_i' = 1$$. We show this binary string produces different outputs for $$f_{b_1} \text { and } f_{b_2}$$. Observe that:
 
 $$
 f_{b_1}(b') = f_{b_1}(\{1\}^{\mathbb{N}}) = \sum_{i\in\mathbb{N}} \frac{b_i'((b_1)_i + 1)}{10^{i+1}} = \sum_{i\in\mathbb{N}} \frac{1\cdot((b_1)_i + 1)}{10^{i+1}}
