@@ -5,7 +5,7 @@
     "image": "",
     "email": "dkathein@cmu.edu",
     "url": "https://danielkathe.in/",
-    "summary": "AI undergraduate student at Carnegie Mellon University in the School of Computer Science. Passionate about ML research, LLMs, and software development",
+    "summary": "AI undergraduate student at Carnegie Mellon University in the School of Computer Science. Passionate about machine learning, LLMs, and software development",
     "location": {
       "address": "",
       "postalCode": "",
@@ -93,16 +93,34 @@
       "summary": "Awarded 3 semesters in a row."
     },
     {
+      "title": "Outstanding Academic Achievement Award",
+      "date": "2023",
+      "awarder": "Pine Crest Preparatory School",
+      "summary": "Top 1-2% of class in Computer Science, Mathematics and Science"
+    },
+    {
+      "title": "National Merit Finalist",
+      "date": "2023",
+      "awarder": "National Merit Scholarship Corporation (NMSC)",
+      "summary": ""
+    },
+    {
+      "title": "Silver Knight Award Nominee: Vocational Technology",
+      "date": "2023",
+      "awarder": "Miami Herald",
+      "summary": ""
+    },
+    {
+      "title": "Xerox Award for Innovation and Information Technology",
+      "date": "2022",
+      "awarder": "University of Rochester",
+      "summary": ""
+    },
+    {
       "title": "1st Place - Software Development, 2nd place - Data Science & Analytics",
       "date": "2021",
       "awarder": "Florida Technology Student Association",
       "summary": ""
-    },
-    {
-      "title": "Outstanding Academic Achievement Award",
-      "date": "2023",
-      "awarder": "Pine Crest Preparatory School",
-      "summary": "Top 1% of class in Computer Science & Math"
     }
   ],
   "projects": [
