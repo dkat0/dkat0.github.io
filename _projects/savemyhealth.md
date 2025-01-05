@@ -9,7 +9,7 @@ category: fun
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/savemyhealth.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/savemyhealth2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -25,11 +25,11 @@ HackCMU 2024 had a cyberpunk theme, and our team decided to focus on the healthc
 ### Features
 
 - **Hard Hitting Numbers: Life Expectancy / Medical Cost Prediction**:  
-  Through analyzing key factors such as BMI, exercise, sleep, and alcohol consumption, SaveMyHealth estimates life expectancy using a specialized model and predicts lifetime medical costs using Random Forest Regression. These metrics can often be hard hitting and offer a compelling perspective to motivate change.
+  Through analyzing key factors such as BMI, exercise, sleep, and alcohol consumption, SaveMyHealth estimates life expectancy using a specialized model and predicts lifetime medical costs using Random Forest Regression that we trained. These metrics can often be hard hitting and offer a compelling perspective to motivate change.
 
 - **Personalized Health Recommendations**:  
-  The app leverages a language model with in-context learning and delivers actionable health tips based on individual user profiles. These recommendations lie in the pivotal areas ofdiet, exercise, habits, and stress management, and are supported by [NOVOS](https://novoslabs.com/live-longer-slow-aging-life-extension-blog/) research.
+  We implemented a language model with in-context learning to deliver actionable health tips based on individual user profiles. These recommendations lie in the pivotal areas ofdiet, exercise, habits, and stress management, and are supported by [NOVOS](https://novoslabs.com/live-longer-slow-aging-life-extension-blog/) research.
 
-Ultimately, SaveMyHealth offers a powerful algorithmic and data-driven approach to health, enabling users to make informed decisions and take meaningful steps toward a healthier, longer life.
+While SaveMyHealth is still a proof of concept, it showcases the exciting potential of algorithmic and data-driven approaches to how we approach longevity and wellness. This project inspires us to continue exploring innovative tech for a healthier future.
 
 ### [[Codebase]](https://github.com/dkat0/save-my-health) [[Website]](https://savemyhealth.aeylabs.com/)
