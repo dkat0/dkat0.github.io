@@ -59,7 +59,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-savemyhealth",
           title: 'SaveMyHealth',
-          description: "An AI powered approach to health. HackCMU 2024 project.",
+          description: "An AI-powered approach to health. HackCMU 2024 project.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/savemyhealth/";
             },},{id: "projects-epileptic-seizure-detection",
