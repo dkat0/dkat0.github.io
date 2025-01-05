@@ -62,6 +62,11 @@ ninja.data = [{
           description: "An AI powered approach to health. HackCMU 2024 project.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/savemyhealth/";
+            },},{id: "projects-senior-assassin",
+          title: 'Senior Assassin',
+          description: "Bot for Senior Assassin using Twilio &amp; unofficial Life360 API",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/seniorassassin/";
             },},{
         id: 'social-email',
         title: 'email',
