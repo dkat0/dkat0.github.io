@@ -62,6 +62,11 @@ ninja.data = [{
           description: "An AI powered approach to health. HackCMU 2024 project.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/savemyhealth/";
+            },},{id: "projects-epileptic-seizure-detection",
+          title: 'Epileptic Seizure Detection',
+          description: "Epileptic Seizure Detection Using RNN, LSTM, and GRU Models",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/seizuredetection/";
             },},{id: "projects-senior-assassin",
           title: 'Senior Assassin',
           description: "Bot for Senior Assassin using Twilio &amp; unofficial Life360 API",
