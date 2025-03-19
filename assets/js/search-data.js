@@ -48,7 +48,7 @@ ninja.data = [{
           window.location.href = "/blog/2023/mackey-problem/";
         
       },
-    },{id: "news-i-attended-the-international-forum-on-research-excellence-ifore-in-virginia-where-i-presented-my-work-in-multi-camera-tracking",
+    },{id: "news-i-attended-the-international-forum-on-research-excellence-ifore-in-virginia-where-i-presented-my-work-in-multi-camera-tracking-using-transformers",
           title: 'I attended the International Forum on Research Excellence (IFoRE) in Virginia, where I...',
           description: "",
           section: "News",},{id: "news-i-took-part-in-hackcmu-2024-building-savemyhealth-an-ai-powered-personalized-health-amp-amp-longevity-recommendation-system",
@@ -56,9 +56,6 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-i-m-really-excited-to-be-joining-nvidia-as-an-intern-this-summer-to-work-on-llms",
           title: 'I’m really excited to be joining NVIDIA as an intern this summer to...',
-          description: "",
-          section: "News",},{id: "news-i-built-infinite-sandbox-for-tartanhacks-2025-an-ai-powered-interactive-storytelling-tool-with-multimodal-video-text-narration-generation",
-          title: 'I built Infinite Sandbox for TartanHacks 2025, an AI-powered interactive storytelling tool, with...',
           description: "",
           section: "News",},{id: "projects-savemyhealth",
           title: 'SaveMyHealth',
