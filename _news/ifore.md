@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I attended the International Forum on Research Excellence (IFoRE) in Virginia, where I presented my work in multi-camera tracking.
+I attended the International Forum on Research Excellence (IFoRE) in Virginia, where I presented my work in multi-camera tracking using Transformers.
