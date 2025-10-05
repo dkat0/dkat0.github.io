@@ -40,7 +40,7 @@ bibliography: 2024-11-10-mackey-problem.bib
 
 ## Introduction
 
-It all started when **John Mackey**, who teaches the infamous first-year 15-151 Mathematical Foundations for Computer Science course (better known as **Concepts**) at CMU, casually posed the following puzzle at the end of one of his lectures: 
+It all started when **John Mackey**, who teaches the infamous 15-151 Mathematical Foundations for Computer Science course (better known as **Concepts**) at CMU, casually posed the following puzzle at the end of one of his lectures: 
 
 > *"Is the set of injections $$\{0,1\}^{\mathbb{N}} \rightarrow \mathbb{R}$$ uncountable?"*
 

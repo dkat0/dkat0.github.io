@@ -7,7 +7,7 @@ first_name: Daniel
 middle_name: 
 last_name: Kathein
 contact_note: >
-  The best way to reach me is via email at dkathein [at] cmu [dot] edu
+  The best way to reach me is via email at daniel [at] trydune [dot] ai
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Daniel Kathein's personal website
 footer_text: >
@@ -86,8 +86,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Daniel's Blog # blog_name will be displayed in your blog page
-blog_description: Intriguing explorations of software, AI/ML, and mathematics.
+blog_name: the blog # blog_name will be displayed in your blog page
+blog_description: Explorations of AI and mathematics
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -625,19 +625,19 @@ third_party_libraries:
 # Get external JSON data
 # -----------------------------------------------------------------------------
 
-jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
-jsonresume:
-  - basics
-  - work
-  - education
-  - publications
-  - projects
-  - volunteer
-  - awards
-  - certificates
-  - skills
-  - languages
-  - interests
-  - references
+# jekyll_get_json:
+#   - data: resume
+#     json: assets/json/resume.json # it can also be an url
+# jsonresume:
+#   - basics
+#   - work
+#   - education
+#   - publications
+#   - projects
+#   - volunteer
+#   - awards
+#   - certificates
+#   - skills
+#   - languages
+#   - interests
+#   - references

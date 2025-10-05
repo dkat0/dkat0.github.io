@@ -14,4 +14,6 @@ This system periodically queries the unofficial Life360 API, which I worked to r
 
 Our team advanced to the finals in a five-team shootout held at a local park, where Life360 tracking was not used. Nonetheless, we managed to achieve the highest number of successful assassinations throughout the competition.
 
+P.S. my brother recently used it in his game and it's holding up well :)
+
 ### [[Codebase]](https://github.com/dkat0/assassin)
