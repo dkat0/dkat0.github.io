@@ -19,4 +19,4 @@ I'm building <a href='https://trydune.ai/'>Dune</a> (YC F25) — the orchestrati
 
 I left CMU's School of Computer Science to focus on Dune full-time. Previously, I worked on agents for VLSI chip design at <a href="https://www.nvidia.com/en-us/">NVIDIA</a>, and did ML research at CMU's <a href="https://leililab.github.io/">Li Lab</a>.
 
-In my free time, I enjoy lifting, piano, trying new food, and spending time with my five cats. Feel free to reach out if you'd like to connect!
+In my free time, I enjoy lifting, piano, trying new food, and spending time with my four cats. Feel free to reach out if you'd like to connect!
