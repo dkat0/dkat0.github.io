@@ -16,27 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "nav-projects",
-          title: "projects",
-          description: "Projects I&#39;ve worked on (WIP).",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
-        },{id: "nav-publications",
-          title: "publications",
-          description: "publications in reversed chronological order.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/publications/";
-          },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "My CV/Resume (click the PDF button for the full version)",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
         },{id: "post-the-mackey-problem",
       
         title: "The Mackey Problem",
@@ -48,25 +27,11 @@ ninja.data = [{
           window.location.href = "/blog/2023/mackey-problem/";
         
       },
-    },{id: "news-i-attended-the-international-forum-on-research-excellence-ifore-in-virginia-where-i-presented-my-work-in-multi-camera-tracking-using-transformers",
-          title: 'I attended the International Forum on Research Excellence (IFoRE) in Virginia, where I...',
-          description: "",
-          section: "News",},{id: "news-i-took-part-in-hackcmu-2024-building-savemyhealth-an-ai-powered-personalized-health-amp-amp-longevity-recommendation-system",
-          title: 'I took part in HackCMU 2024, building SaveMyHealth, an AI-powered personalized health &amp;amp;amp;...',
-          description: "",
-          section: "News",},{id: "news-i-m-really-excited-to-be-joining-nvidia-as-an-intern-this-summer-to-work-on-llms",
-          title: 'I’m really excited to be joining NVIDIA as an intern this summer to...',
-          description: "",
-          section: "News",},{id: "projects-savemyhealth",
+    },{id: "projects-savemyhealth",
           title: 'SaveMyHealth',
           description: "An AI-powered approach to health. HackCMU 2024 project.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/savemyhealth/";
-            },},{id: "projects-epileptic-seizure-detection",
-          title: 'Epileptic Seizure Detection',
-          description: "Epileptic Seizure Detection Using RNN, LSTM, and GRU Models",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/seizuredetection/";
             },},{id: "projects-senior-assassin",
           title: 'Senior Assassin',
           description: "Bot for Senior Assassin using Twilio &amp; unofficial Life360 API",
@@ -77,7 +42,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%64%6B%61%74%68%65%69%6E@%63%6D%75.%65%64%75", "_blank");
+          window.open("mailto:%64%61%6E%69%65%6C@%74%72%79%64%75%6E%65.%61%69", "_blank");
         },
       },{
         id: 'social-github',
@@ -99,13 +64,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("/feed.xml", "_blank");
-        },
-      },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://scholar.google.com/citations?user=-lWZpGIAAAAJ", "_blank");
         },
       },{
       id: 'light-theme',
