@@ -3,9 +3,9 @@ layout: page
 title: projects
 permalink: /projects/
 description: Projects I've worked on (WIP).
-nav: true
+nav: false
 nav_order: 2
-display_categories: [course projects, fun]
+display_categories: [fun]
 horizontal: false
 ---
 
