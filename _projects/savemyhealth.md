@@ -20,7 +20,7 @@ category: fun
 
 HackCMU 2024 had a cyberpunk theme, and our team decided to focus on the healthcare category. With a shared interest in leveraging technology for longevity, we created **SaveMyHealth**.
 
-[SaveMyHealth](https://savemyhealth.aeylabs.com/) is an AI-driven web application designed to empower users on their journey to better health. Whether users look to make small changes or address dangerously unhealthy lifestyles, SaveMyHealth provides personalized advice based off their unique profiles that is supported by cutting-edge scientific research in longevity and wellness.
+SaveMyHealth is an AI-driven web application designed to empower users on their journey to better health. Whether users look to make small changes or address dangerously unhealthy lifestyles, SaveMyHealth provides personalized advice based off their unique profiles that is supported by cutting-edge scientific research in longevity and wellness.
 
 ### Features
 
@@ -32,4 +32,4 @@ HackCMU 2024 had a cyberpunk theme, and our team decided to focus on the healthc
 
 While SaveMyHealth is still a proof of concept, it showcases the exciting potential of algorithmic and data-driven approaches to how we approach longevity and wellness. This project inspires us to continue exploring innovative tech for a healthier future.
 
-### [[Codebase]](https://github.com/dkat0/save-my-health) [[Website]](https://savemyhealth.aeylabs.com/)
+### [[Codebase]](https://github.com/dkat0/save-my-health)
