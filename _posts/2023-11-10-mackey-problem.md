@@ -44,7 +44,7 @@ It all started when **John Mackey**, who teaches the infamous 15-151 Mathematica
 
 > *"Is the set of injections $$\{0,1\}^{\mathbb{N}} \rightarrow \mathbb{R}$$ uncountable?"*
 
-It wasn't necessarily framed as a challenge—more of a throwaway brainteaser. But my classmate **Pietro** and I couldn't resist poking at it further. A few days later, we finally pinned down a clean argument showing that the set is indeed uncountable.
+It wasn't necessarily framed as a challenge, more a throwaway brainteaser. But my classmate **Pietro** and I couldn't resist poking at it further. A few days later, we finally pinned down a clean argument showing that the set is indeed uncountable.
 
 What follows is our proof, largely motivated by Cantor's classic diagonalization ideas, that we hope does justice to Mackey's provocative question.
 
