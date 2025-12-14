@@ -40,13 +40,13 @@ bibliography: 2024-11-10-mackey-problem.bib
 
 ## Introduction
 
-It all started when **John Mackey**, who teaches the infamous 15-151 Mathematical Foundations for Computer Science course (better known as **Concepts**) at CMU, casually posed the following puzzle at the end of one of his lectures: 
+At the end of a 15-151 Mathematical Foundations for Computer Science (Concepts) lecture at CMU, John Mackey casually posed the following question:
 
 > *"Is the set of injections $$\{0,1\}^{\mathbb{N}} \rightarrow \mathbb{R}$$ uncountable?"*
 
-It wasn't necessarily framed as a challenge, more a throwaway brainteaser. But my classmate **Pietro** and I couldn't resist poking at it further. A few days later, we finally pinned down a clean argument showing that the set is indeed uncountable.
+It wasn't presented as a serious challenge, more of a throwaway brainteaser, but the question stuck with my classmate Pietro and me. After thinking about it for a few days, we eventually pinned down an argument showing that the set is indeed uncountable.
 
-What follows is our proof, largely motivated by Cantor's classic diagonalization ideas, that we hope does justice to Mackey's provocative question.
+What follows is our proof, largely motivated by Cantor's classic diagonalization ideas, which answers Mackey's question in the affirmative.
 
 ---
 
