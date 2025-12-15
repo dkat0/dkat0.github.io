@@ -28,13 +28,6 @@ ninja.data = [{
         
       },
     },{
-        id: 'social-email',
-        title: 'email',
-        section: 'Socials',
-        handler: () => {
-          window.open("mailto:%64%61%6E%69%65%6C@%61%62%73%75%72%64.%63%6F%6D", "_blank");
-        },
-      },{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',
